@@ -5,6 +5,8 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* section one start */
 .section-one-container {
   display: flex;
   background-image: url(../images/top-banner.png);
@@ -22,6 +24,7 @@ body {
   font-size: 65px;
   font-family: "Lobster", cursive;
 }
+/* google font */
 .section-one-content h3 {
   font-size: 25px;
   padding: 2% 0;
@@ -35,13 +38,14 @@ body {
 .section-one-img img {
   width: 85%;
 }
+/* css Button */
 .my-btn {
   background: #cbe055;
   background-image: -webkit-linear-gradient(top, #cbe055, #86cc58);
   background-image: -moz-linear-gradient(top, #cbe055, #86cc58);
   background-image: -ms-linear-gradient(top, #cbe055, #86cc58);
   background-image: -o-linear-gradient(top, #cbe055, #86cc58);
-  background-image: linear-gradient(to bottom, #cbe055, #86cc58);
+  background-image: linear-gradient(to bottom, #f1df70, #f57474);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 6px;
@@ -93,7 +97,7 @@ body {
 }
 /* section two end */
 
-/* section three started */
+/* section three start*/
 #section-three {
   background-image: url(../images/exp-bg.png);
   background-repeat: no-repeat;
@@ -126,8 +130,6 @@ body {
   font-size: 20px;
   padding: 3% 0;
 }
-.section-three-content-one p {
-}
 .section-three-content-two {
   width: 50%;
   padding: 5% 2%;
@@ -145,7 +147,11 @@ body {
   font-size: 20px;
   padding: 3% 0;
 }
+/* section three end */
+
+/* footer start */
 footer p {
   text-align: center;
   padding: 2% 0;
 }
+/* footer end */
