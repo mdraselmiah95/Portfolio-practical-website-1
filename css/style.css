@@ -91,3 +91,49 @@ body {
 .section-two-contant p {
   margin-bottom: 5%;
 }
+/* section two end */
+
+/* section three started */
+#section-three {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+#section-three h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+}
+.section-three-container {
+  display: flex;
+}
+.section-three-content-one {
+  width: 50%;
+  padding: 3% 2%;
+  border-left: 5px solid;
+  margin-left: 7%;
+  box-shadow: 5px 7px 40px grey;
+  border-image: linear-gradient(180deg, #54e2b1, #675fe2);
+  border-image-slice: 1;
+}
+.section-three-content-one h2 {
+}
+.section-three-content-one h3 {
+}
+.section-three-content-one p {
+}
+.section-three-content-two {
+  width: 50%;
+  padding: 3% 2%;
+  margin: 0 7%;
+  border-left: 5px solid;
+  box-shadow: 5px 7px 40px grey;
+  border-image: linear-gradient(180deg, #54e2b1, #675fe2);
+  border-image-slice: 1;
+}
+.section-three-content-two h2 {
+}
+.section-three-content-two h3 {
+}
+.section-three-content-two p {
+}
